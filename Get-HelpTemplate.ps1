@@ -25,8 +25,6 @@ Write-Output @"
         Write-Output @"
 .PARAMETER $($parameter.Name)
 
-Type $($parameter.ParameterType.FullName)
-
 
 "@
 
